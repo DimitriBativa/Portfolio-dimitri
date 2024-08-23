@@ -21,14 +21,31 @@ body {
   justify-content: space-between;
 }
 
-strong {
+.titulo_destaque {
   color: var(--cor-destaque);
 }
 
+
+
 a {
-  
+  font-size: 18px;                   
+  text-decoration: none;
+  background-color: var(--cor-destaque);
+  padding: 10px 40px;
 }
 
 .foto {
   height: 190px;
+}
+
+.apresentacao_conteudo{
+  width: 615px;
+}
+
+.apresentacao_conteudo_titulo{
+  font-size: 36px;
+}
+
+.apresentacao_conteudo_texto{
+  font-size: 24px;
 }
